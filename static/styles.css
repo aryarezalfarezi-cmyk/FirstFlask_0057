@@ -6,3 +6,35 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+button {
+    background-color: #244fbd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #183a91;
+}
+
+h3 {
+    color: green;
+}
