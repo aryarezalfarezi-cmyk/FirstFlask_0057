@@ -7,25 +7,3 @@
     <title>Flask POST</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
-
-<body>
-
-    <div class="container">
-        <h2>Project Flask POST</h2>
-
-        <form action="/proses" method="POST">
-            <label>Masukkan Nama:</label>
-
-            <input type="text" name="nama" placeholder="Masukkan nama kamu" required>
-
-            <button type="submit">Kirim</button>
-        </form>
-
-        {% if hasil %}
-        <h3>Hasil: Halo, {{ hasil }}!</h3>
-        {% endif %}
-    </div>
-
-</body>
-
-</html>
